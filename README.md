@@ -1,9 +1,11 @@
 # Project 1 -Cumulative Return Analysis
 
-**What is total return/cumulative return?**
+# What is total return/cumulative return?
+
 The total return produced by an investment over a specified period is known as the cumulative return. 
 
-**What is annualized return for an investment?**
+# What is annualized return for an investment?
+
 The money gain in the first year is called annualized return of an investment. The money that gain for the end of second year (period), is defined cumulative return. 
 
 **Opens price:**
