@@ -61,4 +61,7 @@ p_(t-1)= pervious price
   
   **Image 3:**
   Cumulative return graph for the top 5 comapanies(AAPL,AMZN,GOOGL,NVDA, and MSTF)
+  **Image 4:**
+  Advantages of Using Cumulative Returns in Stock Market Analysis
+ 
   
