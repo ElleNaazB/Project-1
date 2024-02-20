@@ -3,7 +3,7 @@ In this project, titled "Exploratory Data Analysis of the Top 5 S&P 500 Companie
 ## Methodology 
 
 ## Analysis 
-
+### Volatility: The findings indicated that Nvidia (NVDA) has the highest volatility among the five stocks. Its stock price has been the most prone to large swings. This suggests that Nvidia's stock has been the most unpredictable and may be considered the riskiest investment of the five .
 ## Conclusion
 
 ## Recomendation
