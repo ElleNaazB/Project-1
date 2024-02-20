@@ -42,7 +42,7 @@ NVDA which had forwardPE of 30.86, has only forcasted PEG of 0.57. So, it means 
 
 Google has the lower forwardPE ratio of 17.90 as compared to others and  PEG ratio of 1.08 which is fairly valued relative to its growth rate.
 
-Other three companies Microsoft, Apple and Amazon with on or above 2.13 PEG ratios, will likely their stock price be overvalued relative to their earning growth rates. Companies are reflecting on investors’ commitment and confidence level on companies’ prospects for safer investment, strong brands, innovative products and leading businesses in the industry. The companies predict investors are willing to pay premium for their future earnings. 
+Other three companies Microsoft, Apple and Amazon with on or above 2.13 PEG ratios, will likely their stock price be overvalued relative to their earning growth rates. Companies are reflecting on investors’ commitment and confidence level on companies’ prospects for safer investment, strong brands, innovative products and leading businesses in the industry. The companies predict investors are willing to pay premium for their future earnings however the companies do not attaract more investors as the stock price is over valued.
 
 <img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE6.png">
 
