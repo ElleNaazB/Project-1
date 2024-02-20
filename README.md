@@ -28,7 +28,7 @@ The project uses a decade's worth of data, spanning from 2013 to 2023, to conduc
 
 ### Moving Averages and Correlation Matrix
 Moving averages with rolling windows of 50 and 200 days has been used to assess the underlying trends in stock prices. This approach is used to smooth out short-term fluctuations and highlight longer-term movements, facilitating a clearer understanding of directional momentum within the market. 
-Investigated the potential correlations between the opening prices of these companies, we constructed a correlation matrix. This matrix is used to quantitatively measures the degree to which the stock prices of these entities move in relation to one another, providing insights into potential co-movements or divergences in their stock price behaviors.
+Investigated the potential correlations between the opening prices of these companies, we constructed a correlation matrix. This matrix is used to quantitatively measure the degree to which the stock prices of these entities move in relation to one another, providing insights into potential co-movements or divergences in their stock price behaviors.
 ## Analysis 
 
 ### Volatility: 
