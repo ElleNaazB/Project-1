@@ -41,7 +41,7 @@ p_(t-1)= pervious price
 
 **Many reason is behind Nvidia return investment:**
 - Nvidias singles GPU AI training speed performance has increased by a dramatic in the 10 latest year. As using the AI tools get increased at the latest year, every top companies have been use that tools to their daily performance.
-- 
+
 -Simplifications in number representation for the weights of neural network, more complex mathematical instructions for reducing the computational overhead involved in mathematical calculation.
 
 -Increase neuron sparsity in neural networks.
