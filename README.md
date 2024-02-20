@@ -3,9 +3,13 @@
 # need to install this libraries 
 
 import yfinance as yf
+
 from yahoo_fin.stock_info import get_data
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import numpy as np
 
 # What is total return/cumulative return?
