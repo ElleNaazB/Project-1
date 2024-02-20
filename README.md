@@ -40,15 +40,15 @@ p_(t-1)= pervious price
 **What is reason behind high cumulative return for NVDA company then, AAPL, AMZN, GOOGL, and MSFT. **
 
 **Many reason is behind Nvidia return investment:**
-- Nvidias singles GPU AI training speed performance has increased by a dramatic in the 10 latest year. As using the AI tools get increased at the latest year, every top companies have been use that tools to their daily performance.
+# Nvidias singles GPU AI training speed performance has increased by a dramatic in the 10 latest year. As using the AI tools get increased at the latest year, every top companies have been use that tools to their daily performance.
 
--Simplifications in number representation for the weights of neural network, more complex mathematical instructions for reducing the computational overhead involved in mathematical calculation.
+# Simplifications in number representation for the weights of neural network, more complex mathematical instructions for reducing the computational overhead involved in mathematical calculation.
 
--Increase neuron sparsity in neural networks.
+# Increase neuron sparsity in neural networks.
 
--Nvidia also made improvements in data center scale architecture that allows groups of GPUs to work more efficiently together.
+# Nvidia also made improvements in data center scale architecture that allows groups of GPUs to work more efficiently together.
 
--The chipmaker traditionally known for its graphics processing units (GPUs) that have powered industries like gaming, crypto, and autonomous vehicles, has emerged as the clear leader in artificial intelligence (AI) chips as its technology is also well suited to running the kind of deep learning models that programs like ChatGPT require.
+# The chipmaker traditionally known for its graphics processing units (GPUs) that have powered industries like gaming, crypto, and autonomous vehicles, has emerged as the clear leader in artificial intelligence (AI) chips as its technology is also well suited to running the kind of deep learning models that programs like ChatGPT require.
 
 **Image 1:**
   the daily percentage change for the amazon company
