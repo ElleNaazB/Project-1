@@ -25,12 +25,13 @@ Volume measures the number of shares traded in a stock or contracts traded in fu
 **Adjusted close price:**
 the adjusted closing price takes dividends, stock splits, and new stock offerings into account. The adjusted closing price is a more accurate indicator of stock value since it starts where the closing price finishes. the adjusted closing price takes dividends, stock splits, and new stock offerings into account. The adjusted closing price is a more accurate indicator of stock value since it starts where the closing price finishes.
 
-**Daily percentage change:**
+# Daily percentage change:
 
 r_t=p_t/p_(t-1) -1
 as an example the daily return percentage of the amazon based on the data analysis at python is:
 
-**Cumulative return formula**:
+# Cumulative return formula:
+
 i_t=(1+r_t ) i_(t-1)=(1+p_t/p_(t-1) -1) i_(t-1)=p_t/p_(t-1)  i_(t-1)
 〖⟹i〗_t=  p_t/p_(t-1)  i_(t-1)
 i_t= cumulative return for the specific period
