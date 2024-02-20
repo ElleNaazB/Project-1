@@ -1,5 +1,13 @@
 # Project 1 -Cumulative Return Analysis
 
+# need to install this libraries 
+
+import yfinance as yf
+from yahoo_fin.stock_info import get_data
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
 # What is total return/cumulative return?
 
 The total return produced by an investment over a specified period is known as the cumulative return. 
