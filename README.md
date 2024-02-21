@@ -1,80 +1,72 @@
-# Project 1 -Cumulative Return Analysis
 
-# need to install this libraries 
 
-import yfinance as yf
+# Introduction 
 
+
+This project conducts a thorough analysis of the stock performance of the top 5 companies in the S&P 500 index: Apple Inc., Microsoft Corp., Amazon.com Inc., NVIDIA Corp., and Alphabet Inc. Class A. By integrating both fundamental and technical analysis, we aim to enhance investment decision-making. Through fundamental analysis, the project focuses on assessing the financial health of these companies by examining their overall financial condition and identifying potential risk, which informs the long-term investment potential.Concurrently, technical analysis is used to analyze stock price trends,cumulative return, volatility, and comparative performance, as well as identify correlations and significant long-term trends in their trading data. Our analysis culminates in a recommendation of what we believe to be the best investment opportunity among these top performers. Our aim is to provide a complete picture of the financial stability and growth potential of these industry giants, thus empowering investors with the knowledge needed to make well-informed investment choices.
+
+# Methodology 
+## Installation
+For this project, we used  datasets from the yahoo finance library in python. 
+The library could be installed by the command: 
+```{r import-data, echo = TRUE}
+$ pip install yfinance --upgrade --no-cache-dir
+```
+## Download Historical Data Using the Yahoo Finance API
+```{r import-data, echo = TRUE}
 from yahoo_fin.stock_info import get_data
+```
+## Import Data
+For example:
+```{r import-data, echo = TRUE}
+import yfinance as yf
+msft = yf.Ticker("MSFT")
+print(msft.info)
+```
+## Methods used for Exploratory Data Analysis
+The project uses a decade's worth of data, spanning from 2013 to 2023, to conduct a thorough Exploratory Data Analysis (EDA). This comprehensive approach allows us to understand the dataset, aiming to uncover underlying patterns, trends, and anomalies within the stock performances of our subjects. 
 
-import pandas as pd
+### Moving Averages and Correlation Matrix
+Moving averages with rolling windows of 50 and 200 days has been used to assess the underlying trends in stock prices. This approach is used to smooth out short-term fluctuations and highlight longer-term movements, facilitating a clearer understanding of directional momentum within the market. 
+Investigated the potential correlations between the opening prices of these companies, we constructed a correlation matrix. This matrix is used to quantitatively measure the degree to which the stock prices of these entities move in relation to one another, providing insights into potential co-movements or divergences in their stock price behaviors.
+## Analysis 
 
-import matplotlib.pyplot as plt
+### Volatility: 
+The findings indicated that Nvidia (NVDA) has the highest volatility among the five stocks. Its stock price has been the most prone to large swings. This suggests that Nvidia's stock has been the most unpredictable and may be considered the riskiest investment of the five .
 
-import numpy as np
 
-# What is total return/cumulative return?
+### Financial Analysis
 
-The total return produced by an investment over a specified period is known as the cumulative return. 
+#### Price Earning Ratio and Risk
 
-# What is annualized return for an investment?
+From the generated price earning ratio graph from yfinance data, company NVIDIA flagging high of 96.18 and shows highest future growth whereas Google stock seems to be undervalued as it remains low at 24.23. Company Amazon reflects with the second highest price earning score of 58.45.
 
-The money gain in the first year is called annualized return of an investment. The money that gain for the end of second year (period), is defined cumulative return. 
+Looking at the risk radar plot, NVIDIA shows highest risk of 1.68 showing most volatility among the 5 companies compared. In contrast Microsoft shows 0.9 beta value (<1) showing more stability in the stock market value.
 
-**Opens price:**
-the price when the market opened in the morning. 
+<img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE1.png">  <img src= "https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE2.png">
 
-**Close price:**
-The price when the market close at the end of trading day. Or closing price simply refers to the cost of shares at the end of the day.
+#### Revenue VS Profit Margin
 
-**High price:**
-the highest price trading during that day. 
+From the comparison of the following graphs, it is noted that Amazon is generating the highest revenue of 575 billion whereas profit margin remains low. We noted is due to competitive pricing strategies or new investments strategies.
 
-**Low price**: 
-the lowest price during that trading day. 
+Even if, NVDA has the lowest revenue across 5 companies, it is showing the highest profit margin of on or above 0.40. When further explored it was noted tech giants including Google, Meta and others are massively using NVIDIA produced chips to drive their AI technologies.
 
-**Volume:**
-Volume analysis refers to the examination of the total number of securities transacted within a given time period. Trading volume can be analyzed to infer many trends in financial markets, such as liquidity, price reversal, trend confirmation, bullish signs, etc.
-Volume measures the number of shares traded in a stock or contracts traded in futures or options. Volume can indicate market strength, as rising markets on increasing volume are typically viewed as strong and healthy. When prices fall on increasing volume, the trend is gathering strength to the downside.
+With the 307 billions of total revenue, Google was able to gain approximately 0.20 profit margin.
 
-**Adjusted close price:**
-the adjusted closing price takes dividends, stock splits, and new stock offerings into account. The adjusted closing price is a more accurate indicator of stock value since it starts where the closing price finishes. the adjusted closing price takes dividends, stock splits, and new stock offerings into account. The adjusted closing price is a more accurate indicator of stock value since it starts where the closing price finishes.
+<img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE3.png"> <img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE4.png">
 
-# Daily percentage change:
+####  Market Capitalization, Price Earning and Earning Per Share
 
-r_t=p_t/p_(t-1) -1
-as an example the daily return percentage of the amazon based on the data analysis at python is:
+While reviewing the following combined graph, it is noted that Microsoft remains at the top securing highest market capitalization with 3002.34 billion shares and also remains first in demonstrating highest earning per share amount of 11.07. The second highest market coverage is captured by Apple however it’s earning per share remains low of 6.44 which just higher than Google (5.80) however below than NVDA. In contrast Amazon remained lowest in generating earning per share amount of just $2.90. Even though it’s price earning remained the highest of 58.45, the earning per share amount was significantly lower of 2.90.
 
-# Cumulative return formula:
+<img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE%205.png">
 
-i_t=(1+r_t ) i_(t-1)=(1+p_t/p_(t-1) -1) i_(t-1)=p_t/p_(t-1)  i_(t-1)
-〖⟹i〗_t=  p_t/p_(t-1)  i_(t-1)
-i_t= cumulative return for the specific period
-p_t= present price 
-p_(t-1)= pervious price 
 
-**What is reason behind high cumulative return for NVDA company then, AAPL, AMZN, GOOGL, and MSFT. **
+## Limitations 
+While our exploratory data analysis provides valuable insights into the stock performance of the top 5 S&P 500 companies, it is important to acknowledge certain limitations of our study. Firstly, our analysis was confined to EDA and did not incorporate technical analysis, which might have offered additional perspectives on market entry points and the timing of stock price movements. The absence of such technical insights means that our conclusions are better suited for understanding long-term trends rather than short-term trading opportunities.
 
-# Many reason is behind Nvidia return investment:
-- Nvidias singles GPU AI training speed performance has increased by a dramatic in the 10 latest year. As using the AI tools get increased at the latest year, every top companies have been use that tools to their daily performance.
+Moreover, the stock market is subject to rapid fluctuations influenced by a multitude of external factors beyond a company's performance.
 
-- Simplifications in number representation for the weights of neural network, more complex mathematical instructions for reducing the computational overhead involved in mathematical calculation.
-
-- Increase neuron sparsity in neural networks.
-
-- Nvidia also made improvements in data center scale architecture that allows groups of GPUs to work more efficiently together.
-
-- The chipmaker traditionally known for its graphics processing units (GPUs) that have powered industries like gaming, crypto, and autonomous vehicles, has emerged as the clear leader in artificial intelligence (AI) chips as its technology is also well suited to running the kind of deep learning models that programs like ChatGPT require.
-
-**Image 1:**
-  the daily percentage change for the amazon company
-  
-   **Image 2:**
-  cumulative return for the amazon campany
-  
-  **Image 3:**
-  Cumulative return graph for the top 5 comapanies(AAPL,AMZN,GOOGL,NVDA, and MSTF)
-  
-  **Image 4:**
-  Advantages of Using Cumulative Returns in Stock Market Analysis
- 
-  
+Our study did not also explicitly model the impact of global economic events, policy changes, or market sentiment shifts, which can all drastically alter stock performance. Future studies may benefit from incorporating a more holistic approach that includes these external variables, along with a multi-faceted analysis combining EDA, fundamental and technical analysis to provide a more comprehensive view of stock performance and investment potential.
+## Conclusion
+The goal of the project was to recommend of what we believe to be the best investment opportunity among these top 5 performers in S&P500. The analysis reveals that Microsoft stands out as the most stable stock, offering consistent performance with lower volatility. On the other hand, NVIDIA, despite its higher volatility, shows substantial growth potential, suggesting an attractive option for risk-tolerant investors aiming for higher returns.
