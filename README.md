@@ -5,7 +5,10 @@
 
 From the generated price earning ratio graph from yfinance data, company NVIDIA flagging high of 96.18 and shows highest future growth whereas Google stock seems to be undervalued as it remains low at 24.23. Company Amazon reflects with the second highest price earning score of 58.45. 
 
-Looking at the risk radar plot, NVIDIA shows highest risk of 1.68 showing most volatility among the 5 companies compared.  In contrast Microsoft shows 0.9 beta value (<1) showing more stability in the stock market value.
+Looking at the risk radar plot, NVIDIA shows highest risk of 1.68 showing most volatility among the 5 companies compared.  In contrast Microsoft shows 0.9 beta value (<1) showing more stability in the stock market value. Due to uncertainly of future demand how much and what type chips are to be produced, NVIDIA stocks is expected to be volatile. Additionally its product demand will rely on volume of  consumptions / usage from other companies including the rest 4 we captured here.
+
+Microsoft risk label remains 0.9 (<1) demonstrating stability in the market. Though it’s price earning remains just above than Apple and Google, it’s overall revenue and profit will also depend on Market Capital (how much stock they have).
+
 
 <img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE1.png">  <img src= "https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE2.png">
 
@@ -13,11 +16,12 @@ Looking at the risk radar plot, NVIDIA shows highest risk of 1.68 showing most v
 
 ### Revenue VS Profit Margin
 
-From the comparison of the following graphs, it is noted that Amazon is generating the highest revenue of 575 billion whereas profit margin remains low. We noted is due to competitive pricing strategies or new investments strategies.
+From the comparison of the following graphs, it is noted that Amazon is generating the highest revenue of 575 billion. When further explored we identified Amazon has more product offerings as compared to other companies.  In contrast profit margin for Amazon remains low. We noted it is mainly due to initiation of new strategies such as AWS. 
 
-Even if, NVDA has the lowest revenue across 5 companies, it is showing the highest profit margin of on or above 0.40. When further explored it was noted tech giants including Google, Meta and others are massively using NVIDIA produced chips to drive their AI technologies. 
+NVDA had the lowest revenue across 5 companies however, it is showing the highest profit margin of above 40%.  When further explored it was noted tech giants including Google, Meta and others are massively using NVIDIA produced chips to drive their AI technologies. 
 
-With the 307 billions of total revenue, Google was able to gain approximately 0.20 profit margin.
+With the 307 billions of total revenue, Google was able to gain approximately 20% profit margin.
+
 
 
 <img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE3.png"> <img src="https://github.com/ElleNaazB/Project-1/blob/Santosh/IMAGE4.png">
